@@ -5,57 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap" rel="stylesheet">
     <title>Personal Portfolio</title>
 </head>
 <body>
-    <div class="header">
-        <a>Portfolio</a>
+    <div class="header" id="content">
+        <a id="port">Portfolio</a>
         <div id="left">
-            <a>Home</a>
-            <a>Projects</a>
-            <a>Contact</a>
+            <a href="#content">Home</a>
+            <a href="#content-2">SWOT</a>
+            <a href="#foot">Contact</a>
         </div>
     </div>
     <div class="content">
         <div class="about-me">
             <h1>Hi, I'm Shalom</h1>
-            <h2>Fullstack Dev</h2>
-            <h3>Highly capable JavaScript developer with a knack for anything software related  </h3>
+            <h2>Backend Dev</h2>
+            <h3>Aspiring JavaScript developer with a love for complex problem solving</h3>
         </div>
-        <div id="pic"><img src="download.jpeg" alt="Me" />
+        <div id="pic"><img src="img/me.jpg" alt="Me" />
         </div>
     </div>
     <div id="content-2">
         <div style="text-align: center;margin: 60px 0px;"><h1>SWOT Analysis</h1></div>
+        <hr style="width:80%;border-bottom: 2px solid black;"/>
         <div class="analysis">
             <div class="textbar">
                 <h1>Strengths</h1>
             </div>
             <div>
-                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora in id, tenetur distinctio porro, quis reprehenderit similique voluptatem cum adipisci nam. Distinctio tenetur, ut necessitatibus cupiditate vitae quasi? Deleniti, fugiat.</h2>
+                <h2>Lifelong learner, with a love for computers and digital systems. Years of experience with programming in various languages. Familiarity with programming conventions and best practices.</h2>
             </div>
             <div>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quisquam nostrum nulla accusamus quam voluptatum dolore ex, nisi maiores temporibus distinctio ullam, ipsam optio odit, odio vel totam facilis perferendis.</h2>
+                <h2>Poor UI/UX design skills. Tendency to overthink and overplan things. Crippling perfectionism.</h2>
             </div>
             <div class="textbar"><h1>Weaknesses</h1></div>
             <div class="textbar">
                 <h1>Opportunities</h1>
             </div>
             <div>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro quaerat dolorum pariatur. Ipsum obcaecati corporis cupiditate minima laboriosam. Beatae recusandae architecto soluta laudantium unde quisquam eligendi quas voluptates aperiam?</h2>
+                <h2>The ever expanding industry for IT professionals and a good hiring opportunities in foreign countries.</h2>
             </div>
             <div>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse nam nesciunt cupiditate placeat sequi ea vel ut repellat, expedita aliquam eum vitae explicabo, quod, enim quibusdam tempora nihil rerum!</h2>
+                <h2>The increasing scale of AI in the field of web development and code generation. Excess of hiring in IT companies leading to layoffs. No work experience.</h2>
             </div>
             <div class="textbar"><h1>Threats</h1></div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer" id="foot">
         <div class="icons">
-            <img class="icon" src="github.svg" alt="My GitHub Profile"/>
-            <img class="icon" src="linkedin.svg" alt="My Linkedin Profile"/>
-            <img class="icon" src="instagram.svg" alt="Instagram Account"/>
-            <img class="icon" src="" alt=""/>
+            <a href="https://github.com/CastelShal"><img class="icon" src="icons/github.svg" alt="My GitHub Profile"/></a>
+            <a href="https://in.linkedin.com/in/shalom-castelino-1bb633201"><img class="icon" src="icons/linkedin.svg" alt="My Linkedin Profile"/></a>
+            <a href="https://www.instagram.com/"><img class="icon" src="icons/instagram.svg" alt="Instagram Account"/></a>
         </div>
     </div>
 </body>
